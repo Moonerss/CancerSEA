@@ -1,0 +1,22 @@
+Package: CancerSEA
+Type: Package
+Title: The functional states score of cancer signle cells
+Version: 0.1.0
+Authors@R: 
+    person(given = "Erjie",
+           family = "Zhao",
+           email = "2055469819@qq.com",
+           role = c("aut", "cre"))
+Maintainer: Erjie Zhao <2055469819@qq.com>
+Description: This package contained the curated gene list of functional states genes, and caulated the 
+             functional states score of cancer single cells.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    tibble,
+    GSVA
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
