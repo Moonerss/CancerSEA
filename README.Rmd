@@ -36,4 +36,11 @@ This is a basic example which shows you how to solve a common problem:
 library(CancerSEA)
 ## basic example code
 available_pathways
+head(cell_cycle)
 ```
+
+```{r eval=FALSE}
+## state score
+scores <- state_score(expr, gene_set = list(cell_cycle$symbol, angiogenesis$symbol))
+```
+
